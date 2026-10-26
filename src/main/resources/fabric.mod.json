@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "boo",
+	"version": "${version}",
+	"name": "Boo",
+	"description": "A sleepy pixel ghost lives on your title screen. He wakes up, swoops around and says hi when the menu loads.",
+	"authors": ["Adrian"],
+	"license": "MIT",
+	"icon": "assets/boo/icon.png",
+	"environment": "client",
+	"mixins": [
+		{ "config": "boo.client.mixins.json", "environment": "client" }
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21"
+	}
+}
